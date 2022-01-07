@@ -1,2 +1,2 @@
 # BetterComments
-A youtube comment filter.sfs
+A youtube comment filter.sfste
