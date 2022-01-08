@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "BetterComments",
+    "version": "0.1",
+    "description": "YouTubeのスパムコメントをブロックします。",
+
+    "permissions": ["activeTab","scripting","alarms","tabs"],
+    "content_scripts": [
+      {
+          "matches": [ "https://www.youtube.com/watch*" ],
+          "js": [ "script.js" ]
+      }
+  ]
+
+  }
